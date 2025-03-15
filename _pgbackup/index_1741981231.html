@@ -20,22 +20,25 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..."/></a>
+            <div class="container"><a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..."/></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu<i class="fas fa-bars ms-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">home</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">home</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="cennik.html">CENNIK</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cennik.html">CENNIK</a>
                         </li>
                         <li class="nav-item">
 </li>
-                        <li class="nav-item"><a class="nav-link" href="pytania.html">PYTANIA</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pytania.html">PYTANIA</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">KONTAKT</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakt.html">KONTAKT</a>
                         </li>
                     </ul>
                 </div>
@@ -47,26 +50,54 @@
 </div>
         </header>
         <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">AUDYT BEZPIECZEŃSTWA</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4"><span class="fa-stack fa-4x"> <i class="fas fa-circle fa-stack-2x text-primary"></i> <i class="fas fa-home fa-stack-1x fa-inverse"></i> </span>
+                        <h4 class="my-3">Bezpieczeństwo</h4>
+                        <p class="text-muted">W dzisiejszym cyfrowym świecie bezpieczeństwo online stało się jednym z najważniejszych priorytetów. Hakerzy nie śpią, a zagrożenia mogą pojawić się w każdej chwili, dlatego warto podjąć kroki, by zadbać o swoje bezpieczeństwo w sieci.</p>
+                    </div>
+                    <div class="col-md-4"><span class="fa-stack fa-4x"> <i class="fas fa-circle fa-stack-2x text-primary"></i> <i class="fas fa-home fa-stack-1x fa-inverse"></i> </span>
+                        <h4 class="my-3">Bez wchodzenia do domu pokaże Ci...</h4>
+                        <p class="text-muted">jak łatwo można wyłączyć wszystkie urządzenia podłączone do Twojej sieci Wi-Fi i LAN. Sprawdzę, czy Twoja sieć jest podatna na ataki i czy ktoś zdalnie może przejąć nad nią kontrolę. Płacisz tylko jeśli znajdę zagrożenia i zdecydujesz się na ich eliminację. Sprawdź czy Twój dom jest bezpieczny !</p>
+                    </div>
+                    <div class="col-md-4"><span class="fa-stack fa-4x"> <i class="fas fa-circle fa-stack-2x text-primary"></i> <i class="fas fa-phone fa-stack-1x fa-inverse"></i> </span>
+                        <h4 class="my-3">Umów sie na darmowy audyt</h4>
+                        <p class="text-muted">Płacisz tylko wtedy, gdy znajdziemy luki i zaproponuje dodatkowe zabezpieczenia.</p>
+                        <p class="text-muted">Czy jesteś pewien, że Twoja sieć Wi-Fi, LAN jest w pełni zabezpieczona ?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Filmy o bezpieczeństwie w sieci</h2>
+                    <h2 class="section-heading text-uppercase">Urządzenia które są podatne na ataki</h2>
+                    <h3 class="section-subheading text-muted">UWAGA !!! Do przeprowadzenia autytu wymagana jest pisemna zgoda klienta. Nie potrzebujemy hasła do Wi-Fi</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
-                        <div class="portfolio-item"><a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1"> <iframe width="100%" height="217" src="https://www.youtube.com/embed/1jAaOOQKwnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </a>
+                        <div class="portfolio-item"><a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1"> <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fas fa-plus fa-3x"></i>
+                                    </div>
+                                </div> <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..."/> </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Jak zabezpieczyć router</div>
+                                <div class="portfolio-caption-heading">Kamery Wi-Fi</div>
+                                <div class="portfolio-caption-subheading text-muted">nie potrzeba hasła Wi-Fi</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2"> <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i>
+                        <div class="portfolio-item"><a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2"> <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fas fa-plus fa-3x"></i>
                                     </div>
                                 </div> <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..."/> </a>
                             <div class="portfolio-caption">
@@ -77,9 +108,9 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3"> <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i>
+                        <div class="portfolio-item"><a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3"> <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fas fa-plus fa-3x"></i>
                                     </div>
                                 </div> <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..."/> </a>
                             <div class="portfolio-caption">
@@ -89,9 +120,9 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                         <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4"> <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i>
+                        <div class="portfolio-item"><a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4"> <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fas fa-plus fa-3x"></i>
                                     </div>
                                 </div> <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..."/> </a>
                             <div class="portfolio-caption">
@@ -101,9 +132,9 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                         <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5"> <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i>
+                        <div class="portfolio-item"><a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5"> <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fas fa-plus fa-3x"></i>
                                     </div>
                                 </div> <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..."/> </a>
                             <div class="portfolio-caption">
@@ -113,9 +144,9 @@
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6"> <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i>
+                        <div class="portfolio-item"><a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6"> <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fas fa-plus fa-3x"></i>
                                     </div>
                                 </div> <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..."/> </a>
                             <div class="portfolio-caption">
@@ -130,73 +161,7 @@
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
-                    <section class="container my-5"> 
-                        <h2 class="text-center mb-4">Artykuły o bezpieczeństwie sieci</h2> 
-                        <div class="row"> 
-                            <!-- Artykuł 1 -->                             
-                            <div class="col-md-4 mb-4"> 
-                                <div class="card h-100"> 
-                                    <img src="assets/img/427.jpg" class="card-img-top" alt="Zabezpieczenie sieci WiFi"> 
-                                    <div class="card-body"> 
-                                        <h5 class="card-title">Nie zabezpieczyłeś sieci Wi-Fi?</h5> 
-                                        <p class="card-text">Ekspert: Grożą konsekwencje</p> <a href="https://cyberdefence24.pl/nie-zabezpieczyles-sieci-wi-fi-ekspert-groza-konsekwencje" class="btn btn-primary" target="_blank">Czytaj więcej</a> 
-                                    </div>                                     
-                                </div>                                 
-                            </div>                             
-                            <!-- Artykuł 2 -->                             
-                            <div class="col-md-4 mb-4"> 
-                                <div class="card h-100"> 
-                                    <img src="assets/img/122.jpg" class="card-img-top" alt="Cyberbezpieczeństwo w domu"> 
-                                    <div class="card-body"> 
-                                        <h5 class="card-title">Twoje Wi-Fi można wykorzystać do kradzieży pieniędzy.</h5> 
-                                        <p class="card-text">To zdarzyło się naszej czytelniczce</p> <a href="https://innpoland.pl/187768,wi-fi-wykorzystano-do-kradziezy-pieniedzy" class="btn btn-primary" target="_blank">Czytaj więcej</a> 
-                                    </div>                                     
-                                </div>                                 
-                            </div>                             
-                            <!-- Artykuł 3 -->                             
-                            <div class="col-md-4 mb-4"> 
-                                <div class="card h-100"> 
-                                    <img src="assets/img/348.jpg" class="card-img-top" alt="Atak na kamerę WiFi" height="82" width="277"> 
-                                    <div class="card-body"> 
-                                        <h5 class="card-title">Uwaga na fałszywe sieci Wi-Fi</h5> 
-                                        <p class="card-text">Można stracić dane i pieniądze</p> <a href="https://economista.pl/uwazaj-na-falszywe-sieci-wi-fi-mozesz-stracic-dane-i-pieniadze/" class="btn btn-primary" target="_blank">Czytaj więcej</a> 
-                                    </div>                                     
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                    </section>
-                    <div class="row"> 
-                        <!-- Artykuł 1 -->                         
-                        <div class="col-md-4 mb-4"> 
-                            <div class="card h-100"> 
-                                <img src="assets/img/255.jpg" class="card-img-top" alt="Zabezpieczenie sieci WiFi"> 
-                                <div class="card-body"> 
-                                    <h5 class="card-title">O zagrożeniach w sieci</h5> 
-                                    <p class="card-text">Słabe hasła, niebezpieczne linki, wyciek danych...</p> <a href="https://gazeta.policja.pl/997/aktualne-wydanie/257037,O-zagrozeniach-w-sieci.html" class="btn btn-primary" target="_blank">Czytaj więcej</a> 
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                        <!-- Artykuł 2 -->                         
-                        <div class="col-md-4 mb-4"> 
-                            <div class="card h-100"> 
-                                <img src="assets/img/122.jpg" class="card-img-top" alt="Cyberbezpieczeństwo w domu"> 
-                                <div class="card-body"> 
-                                    <h5 class="card-title">Twoje Wi-Fi można wykorzystać do kradzieży pieniędzy.</h5> 
-                                    <p class="card-text">To zdarzyło się naszej czytelniczce</p> <a href="https://innpoland.pl/187768,wi-fi-wykorzystano-do-kradziezy-pieniedzy" class="btn btn-primary" target="_blank">Czytaj więcej</a> 
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                        <!-- Artykuł 3 -->                         
-                        <div class="col-md-4 mb-4"> 
-                            <div class="card h-100"> 
-                                <img src="assets/img/348.jpg" class="card-img-top" alt="Atak na kamerę WiFi"> 
-                                <div class="card-body"> 
-                                    <h5 class="card-title">Uwaga na fałszywe sieci Wi-Fi</h5> 
-                                    <p class="card-text">Można stracić dane i pieniądze</p> <a href="https://economista.pl/uwazaj-na-falszywe-sieci-wi-fi-mozesz-stracic-dane-i-pieniadze/" class="btn btn-primary" target="_blank">Czytaj więcej</a> 
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                    </div>                     
+                    <h2 class="section-heading text-uppercase">jak wygląda Audyt bezpieczeństwa</h2>
                     <h3 class="section-subheading text-muted">Krok po kroku</h3>
                 </div>
                 <ul class="timeline">
@@ -315,17 +280,13 @@
         <div class="py-5">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo"/></a>
+                    <div class="col-md-3 col-sm-6 my-3"><a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo"/></a>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo"/></a>
+                    <div class="col-md-3 col-sm-6 my-3"><a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo"/></a>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo"/></a>
+                    <div class="col-md-3 col-sm-6 my-3"><a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo"/></a>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo"/></a>
+                    <div class="col-md-3 col-sm-6 my-3"><a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo"/></a>
                     </div>
                 </div>
             </div>
@@ -379,8 +340,7 @@
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
                             <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at<br/>
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            To activate this form, sign up at<br/><a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                         </div>
                     </div>
                     <!-- Submit error message-->
@@ -402,14 +362,9 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <div class="col-lg-4 my-3 my-lg-0"><a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    <div class="col-lg-4 text-lg-end"><a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a><a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
                     </div>
                 </div>
             </div>
@@ -429,11 +384,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Kamery Wi-Fi</h2>
                                     <p class="item-intro text-muted">Bezpieczeństwo kamer WiFi &ndash; dlaczego to ważne?</p>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1jAaOOQKwnk?si=nyVF3V3SuuQSoklM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><a href="#">Link</a>
-                                    <link>
-                                    <video>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1jAaOOQKwnk?si=nyVF3V3SuuQSoklM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                    </video>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..."/>
                                     <p>Kamery WiFi to popularne rozwiązanie do monitoringu domowego i biznesowego. Pozwalają na zdalny podgląd obrazu w czasie rzeczywistym, przechowywanie nagrań w chmurze oraz integrację z innymi urządzeniami smart home. Niestety, wiele kamer WiFi jest narażonych na cyberataki, które mogą narazić Twoją prywatność i bezpieczeństwo na poważne zagrożenia.</p>
                                     <ul class="list-inline">
                                         <li>
@@ -453,7 +404,8 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zamknij
                                     </button>
                                 </div>
@@ -498,7 +450,8 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zakmnij
                                     </button>
                                 </div>
@@ -543,7 +496,8 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zakmnij
                                     </button>
                                 </div>
@@ -588,7 +542,8 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zakmnij
                                     </button>
                                 </div>
@@ -633,7 +588,8 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zamknij
                                     </button>
                                 </div>
@@ -678,7 +634,8 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zakm
                                     </button>
                                 </div>
