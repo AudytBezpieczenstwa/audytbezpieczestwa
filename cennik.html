@@ -16,9 +16,9 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet"/>
         <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
-		<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N1TR4Q7FJ6"></script>
-    <script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N1TR4Q7FJ6"></script>
+        <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -28,24 +28,21 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-dark navbar-expand-lg sticky-top" id="mainNav">
-            <div class="container"><a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..."/></a>
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..."/></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler15" aria-controls="" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler15">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">home</a>
+                        <li class="nav-item"><a class="nav-link" href="index.html">home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cennik.html">CENNIK</a>
+                        <li class="nav-item"><a class="nav-link" href="cennik.html">CENNIK</a>
                         </li>
                         <li class="nav-item">
 </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pytania.html">PYTANIA</a>
+                        <li class="nav-item"><a class="nav-link" href="pytania.html">PYTANIA</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="edu.html">edukacja</a>
+                        <li class="nav-item"><a class="nav-link" href="edu.html">edukacja</a>
                         </li>
                     </ul>
                 </div>
@@ -62,76 +59,150 @@
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">cennik</h2>
+                    <h2 class="section-heading text-uppercase">Cennik</h2>
+                    <!-- Dodane przyciski -->
+                    <div class="mb-4">
+                        <button id="btn-firm" class="btn btn-primary">Dla Firm</button>
+                        <button id="btn-private" class="btn btn-secondary">Dla Osób Prywatnych</button>
+                    </div>
                 </div>
-                <ul class="timeline">
-                    <li class="bg-white border border-5 timeline-inverted">
-                        <h4 class="align-bottom subheading text-center">1. Darmowy audyt bezpieczeństwa</h4>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-</div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Co obejmuje:</p>
-                                <p class="text-muted">Analiza zabezpieczeń sieci WiFi.
-Sprawdzenie podatności urządzeń podłączonych do sieci (kamery, inteligentne gniazdka, zamki, systemy alarmowe itp.).</p>
-                                <p class="text-muted">
-Testy penetracyjne z wykorzystaniem narzędzi takich jak WiFi Pineapple i Kali Linux.
-Raport z wnioskami i rekomendacjami.</p>
-                                <p class="bg-warning-subtle text-muted text-opacity-50">Koszt: 0 zł &ndash; audyt jest całkowicie darmowy!</p>
+                <!-- Sekcja cennika dla firm -->
+                <div id="cennik-firm" class="cennik-section">
+                    <ul class="timeline">
+                        <li class="bg-white border border-5 timeline-inverted">
+                            <h4 class="align-bottom subheading text-center">1. Audyt bezpieczeństwa sieci dla firm</h4>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading"></div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Co obejmuje:</p>
+                                    <p class="text-muted">Kompleksowa analiza zabezpieczeń sieci WiFi oraz infrastruktury LAN.</p>
+                                    <p class="text-muted">Identyfikacja podatności urządzeń podłączonych do sieci (serwery, komputery, urządzenia IoT, systemy kontroli dostępu itp.).</p>
+                                    <p class="text-muted">Testy penetracyjne z wykorzystaniem profesjonalnych narzędzi (m.in. Kali Linux, Nmap, Metasploit).</p>
+                                    <p class="text-muted">Szczegółowy raport z rekomendacjami dotyczącymi poprawy bezpieczeństwa.</p>
+                                    <p class="bg-warning-subtle text-muted">Koszt: 700zł&nbsp;</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="bg-white border border-5 timeline-inverted">
-                        <h4 class="subheading text-center">2. Dojazd do klienta</h4>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-</div>
-                            <div class="timeline-body">
-                                <p class="bg-warning-subtle text-muted">Nasza firma z siedzibą w Opolu Lubelskim oferuje audyty bezpieczeństwa sieci Wi-Fi, LAN. Koszt dojazdu do Twojej lokalizacji w promieniu do 300 km </p>
-                                <p class="bg-warning-subtle font-monospace text-muted">wynosi 4 zł za 1 km.</p>
-                                <p class="text-muted">
-Darmowy dojazd: Przy zamówieniu usługi naprawy lub wdrożenia zabezpieczeń dojazd jest bezpłatny.</p>
+                        </li>
+                        <li class="bg-white border border-5 timeline-inverted">
+                            <h4 class="subheading text-center">2. Dojazd do klienta</h4>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading"></div>
+                                <div class="timeline-body">
+                                    <p class="bg-warning-subtle text-muted">Nasza firma z siedzibą w Opolu Lubelskim świadczy usługi w promieniu do 300 km.</p>
+                                    <p class="bg-warning-subtle text-muted">Koszt dojazdu do Twojej lokalizacji <br>wynosi 4 zł za 1 km.</p>
+                                    <p class="text-muted">Bonus dla firm: Przy zamówieniu usługi wdrożenia zabezpieczeń lub pakietu kompleksowej ochrony dojazd jest bezpłatny.</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="bg-white border border-5 timeline-inverted">
-                        <h4 class="subheading text-center">3. Koszt usługi w przypadku wykrycia luk</h4>
-                        <div class="bg-white timeline-panel">
-                            <div class="timeline-heading">
-</div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Jeśli podczas audytu wykryjemy luki w zabezpieczeniach (np. możliwość wyłączenia kamery WiFi, przejęcia kontroli nad inteligentnym zamkiem lub innymi urządzeniami), koszt usługi wynosi:</p>
-                                <p class="bg-warning-subtle text-muted">1000 zł &ndash; za pełne zabezpieczenie sieci i urządzeń.</p>
-                                <p class="text-muted">Co obejmuje:</p>
-                                <p class="text-muted">Eliminacja wykrytych luk.</p>
-                                <p class="text-muted">Wdrożenie dodatkowych zabezpieczeń (silne hasła, szyfrowanie, segmentacja sieci itp.).</p>
-                                <p class="text-muted">Szkolenie z zasad bezpieczeństwa dla użytkowników.</p>
+                        </li>
+                        <li class="bg-white border border-5 timeline-inverted">
+                            <h4 class="subheading text-center">3. Usługa eliminacji luk w zabezpieczeniach</h4>
+                            <div class="bg-white timeline-panel">
+                                <div class="timeline-heading"></div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Jeśli podczas audytu wykryjemy luki w zabezpieczeniach (np. ryzyko przejęcia kontroli nad urządzeniami, wyciek danych, brak szyfrowania), koszt usługi wynosi:</p>
+                                    <p class="bg-warning-subtle text-muted">Od 2500 zł &ndash; za pełne zabezpieczenie sieci i urządzeń.</p>
+                                    <p class="text-muted">Co obejmuje:</p>
+                                    <p class="text-muted">Usunięcie wykrytych podatności.</p>
+                                    <p class="text-muted">Wdrożenie zaawansowanych rozwiązań zabezpieczających (firewalle, segmentacja sieci, silne polityki haseł, szyfrowanie danych).</p>
+                                    <p class="text-muted">Konfiguracja systemów monitorowania ruchu sieciowego.</p>
+                                    <p class="text-muted">Szkolenie dla pracowników z zakresu bezpiecznego korzystania z sieci.</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="bg-white border border-5 timeline-inverted">
-                        <h4 class="subheading text-center">4. Dodatkowe usługi (opcjonalnie)</h4>
-                        <div class="bg-white timeline-panel">
-                            <div class="timeline-heading">
-</div>
-                            <div class="timeline-body">
-                                <p class="bg-warning-subtle text-muted">Konfiguracja nowych urządzeń smart home: 200 zł za urządzenie.</p>
-                                <p class="bg-warning-subtle text-muted">Regularne przeglądy bezpieczeństwa: 500 zł za audyt okresowy (co 6 miesięcy).</p>
-                                <p class="text-muted">
-Wdrożenie zaawansowanych rozwiązań bezpieczeństwa: Indywidualna wycena w zależności od potrzeb.</p>
+                        </li>
+                        <li class="bg-white border border-5 timeline-inverted">
+                            <h4 class="subheading text-center">4. Dodatkowe usługi (opcjonalnie)</h4>
+                            <div class="bg-white timeline-panel">
+                                <div class="timeline-heading"></div>
+                                <div class="timeline-body">
+                                    <p class="bg-warning-subtle text-muted">Konfiguracja i integracja urządzeń sieciowych: 300 zł za urządzenie.</p>
+                                    <p class="bg-warning-subtle text-muted">Regularne audyty bezpieczeństwa: 600 zł za audyt okresowy (rekomendowane co 6 miesięcy).</p>
+                                    <p class="text-muted">Wdrożenie zaawansowanych rozwiązań bezpieczeństwa: Indywidualna wycena w zależności od skali projektu.</p>
+                                    <p class="text-muted">Szkolenia dla pracowników z cyberbezpieczeństwa: 400 zł za godzinę (min. 2 godziny, tematyka dostosowana do potrzeb firmy).</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                             Teraz wiesz <br/>
-                                że Twoja sieć <br/>
-                        jest bezpieczna </h4>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Teraz wiesz <br/> że Twoja sieć <br/> jest bezpieczna</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Sekcja cennika dla osób prywatnych -->
+                <div id="cennik-private" class="cennik-section" style="display: none;">
+                    <ul class="timeline">
+                        <li class="bg-white border border-5 timeline-inverted">
+                            <h4 class="align-bottom subheading text-center">1. Darmowy audyt bezpieczeństwa darmowy </h4>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading"></div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Co obejmuje:</p>
+                                    <p class="text-muted">Analiza zabezpieczeń sieci WiFi.
+                            Sprawdzenie podatności urządzeń podłączonych do sieci (kamery, inteligentne gniazdka, zamki, systemy alarmowe itp.).</p>
+                                    <p class="text-muted">Testy penetracyjne z wykorzystaniem narzędzi takich jak WiFi Pineapple i Kali Linux.
+                            Raport z wnioskami i rekomendacjami.</p>
+                                    <p class="bg-warning-subtle text-muted text-opacity-50">Koszt: 0 zł &ndash; audyt jest całkowicie darmowy!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="bg-white border border-5 timeline-inverted">
+                            <h4 class="subheading text-center">2. Dojazd do klienta</h4>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading"></div>
+                                <div class="timeline-body">
+                                    <p class="bg-warning-subtle text-muted">Nasza firma z siedzibą w Opolu Lubelskim oferuje audyty bezpieczeństwa sieci Wi-Fi, LAN. Koszt dojazdu do Twojej lokalizacji w promieniu do 300 km </p>
+                                    <p class="bg-warning-subtle font-monospace text-muted">wynosi 4 zł za 1 km.</p>
+                                    <p class="text-muted">Darmowy dojazd: Przy zamówieniu usługi naprawy lub wdrożenia zabezpieczeń dojazd jest bezpłatny.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="bg-white border border-5 timeline-inverted">
+                            <h4 class="subheading text-center">3. Koszt usługi w przypadku wykrycia luk</h4>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading"></div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Co obejmuje:</p>
+                                    <p class="text-muted">Analiza zabezpieczeń sieci WiFi.
+                            Sprawdzenie podatności urządzeń podłączonych do sieci (kamery, inteligentne gniazdka, zamki, systemy alarmowe itp.).</p>
+                                    <p class="text-muted">Testy penetracyjne z wykorzystaniem narzędzi takich jak WiFi Pineapple i Kali Linux.
+                            Raport z wnioskami i rekomendacjami.</p>
+                                    <p class="bg-warning-subtle text-muted text-opacity-50">Koszt: 0 zł &ndash; audyt jest całkowicie darmowy!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="bg-white border border-5 timeline-inverted">
+                            <h4 class="subheading text-center">4. Dodatkowe usługi (opcjonalnie)</h4>
+                            <div class="bg-white timeline-panel">
+                                <div class="timeline-heading"></div>
+                                <div class="timeline-body">
+                                    <p class="bg-warning-subtle text-muted">Konfiguracja nowych urządzeń smart home: 200 zł za urządzenie.</p>
+                                    <p class="bg-warning-subtle text-muted">Regularne przeglądy bezpieczeństwa: 500 zł za audyt okresowy (co 6 miesięcy).</p>
+                                    <p class="text-muted">Wdrożenie zaawansowanych rozwiązań bezpieczeństwa: Indywidualna wycena w zależności od potrzeb.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Tutaj możesz dodać inne elementy cennika dla osób prywatnych -->
+                    </ul>
+                </div>
             </div>
+            <!-- Skrypt JavaScript -->
+            <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('btn-firm').addEventListener('click', function() {
+      document.querySelectorAll('.cennik-section').forEach(function(section) {
+        section.style.display = 'none';
+      });
+      document.getElementById('cennik-firm').style.display = 'block';
+    });
+
+    document.getElementById('btn-private').addEventListener('click', function() {
+      document.querySelectorAll('.cennik-section').forEach(function(section) {
+        section.style.display = 'none';
+      });
+      document.getElementById('cennik-private').style.display = 'block';
+    });
+  });
+</script>
         </section>
         <!-- Team-->
         <section class="page-section bg-light" id="team">
@@ -178,8 +249,7 @@ Wdrożenie zaawansowanych rozwiązań bezpieczeństwa: Indywidualna wycena w zal
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start">Copyright &copy; Plis Michał 2025</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <div class="col-lg-4 my-3 my-lg-0"><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/share/1E1TXiyNLZ/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
 </div>
@@ -221,7 +291,8 @@ Wdrożenie zaawansowanych rozwiązań bezpieczeństwa: Indywidualna wycena w zal
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zamknij
                                     </button>
                                 </div>
@@ -266,7 +337,8 @@ Wdrożenie zaawansowanych rozwiązań bezpieczeństwa: Indywidualna wycena w zal
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zakmnij
                                     </button>
                                 </div>
@@ -311,7 +383,8 @@ Wdrożenie zaawansowanych rozwiązań bezpieczeństwa: Indywidualna wycena w zal
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zakmnij
                                     </button>
                                 </div>
@@ -356,7 +429,8 @@ Wdrożenie zaawansowanych rozwiązań bezpieczeństwa: Indywidualna wycena w zal
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zakmnij
                                     </button>
                                 </div>
@@ -401,7 +475,8 @@ Wdrożenie zaawansowanych rozwiązań bezpieczeństwa: Indywidualna wycena w zal
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zamknij
                                     </button>
                                 </div>
@@ -446,7 +521,8 @@ Wdrożenie zaawansowanych rozwiązań bezpieczeństwa: Indywidualna wycena w zal
                                             </ul>
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button"><i class="fas fa-xmark me-1"></i>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
                                         Zamknij
                                     </button>
                                 </div>
