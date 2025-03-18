@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 554.65995 69.079998"
+   viewBox="0 0 634.65995 101.08"
    version="1.1"
    id="svg14"
    sodipodi:docname="navbar-logo.svg"
-   width="554.65997"
-   height="69.080002"
+   width="634.65997"
+   height="101.08"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -35,19 +35,20 @@
      id="style1">.cls-1{fill:#fed136;}</style>
   <text
      xml:space="preserve"
-     style="text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#fed136;fill-opacity:1"
-     x="17.252501"
-     y="24.205"
-     id="text14"><tspan
+     style="font-size:16.1824px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#fed136;fill-opacity:1;stroke-width:1.34853"
+     x="20.685862"
+     y="30.015451"
+     id="text14"
+     transform="scale(0.83402377,1.1990066)"><tspan
        sodipodi:role="line"
        id="tspan14"
-       x="17.252501"
-       y="24.205"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Bookman Old Style';-inkscape-font-specification:'Bookman Old Style, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Zabeziecz swoją sieć przed cyberatakami</tspan><tspan
+       x="20.685862"
+       y="30.015451"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.9609px;font-family:'Bookman Old Style';-inkscape-font-specification:'Bookman Old Style, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.34853">Zabezpiecz swoją sieć przed cyberatakami</tspan><tspan
        sodipodi:role="line"
-       x="17.252501"
-       y="57.538376"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Bookman Old Style';-inkscape-font-specification:'Bookman Old Style, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       x="20.685862"
+       y="74.966576"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.9609px;font-family:'Bookman Old Style';-inkscape-font-specification:'Bookman Old Style, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.34853"
        id="tspan1">    - darmowy autyd bezpieczeństwa</tspan></text>
   <g
      inkscape:groupmode="layer"
